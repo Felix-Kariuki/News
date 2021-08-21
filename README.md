@@ -4,7 +4,7 @@ A news app using mmvm architecture, retrofit, coroutines and room database
 
 ## Data Source
 ```text
-https://newsapi.org
+[News Api](https://newsapi.org)
 ```
 # Libraries and tools 🛠
 
