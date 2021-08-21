@@ -3,9 +3,9 @@ A news app using mmvm architecture, retrofit, coroutines and room database
 
 
 ## Data Source
-```text
+
 [News Api](https://newsapi.org)
-```
+
 # Libraries and tools 🛠
 
 News App uses libraries and tools used to build Modern Android application, mainly part of Android Jetpack 🚀
