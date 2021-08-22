@@ -1,5 +1,5 @@
 # News
-A news app using mmvm architecture, retrofit, coroutines and room database
+A news app using mmvm architecture, retrofit, coroutines
 
 
 ## Data Source
@@ -12,7 +12,7 @@ News App uses libraries and tools used to build Modern Android application, main
 
 * Kotlin  
 
-* Coroutines and Flow first
+* Coroutines 
 
 * Architecture components
 
