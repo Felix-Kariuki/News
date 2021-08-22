@@ -12,5 +12,5 @@
     <item
         android:id="@+id/searchFragment"
         android:title="Search News"
-        android:icon="@drawable/ic_all_news"/>
+        android:icon="@drawable/ic_search"/>
 </menu>
