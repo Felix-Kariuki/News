@@ -6,9 +6,9 @@ A news app using mmvm architecture, retrofit, coroutines
 
 [News Api](https://newsapi.org)
 
-# Libraries and tools 🛠
+# Libraries and tools
 
-News App uses libraries and tools used to build Modern Android application, mainly part of Android Jetpack 🚀
+News App uses libraries and tools used to build Modern Android application, mainly part of Android Jetpack
 
 * Kotlin  
 
@@ -26,11 +26,13 @@ The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional f
 
 # License and Copyright
 
+[LICENSE](LICENSE)
+
 ```text
 
-The MIT License (MIT)
+MIT License
 
-Copyright © 2021 Felix Kariuki
+Copyright (c) 2021 Felix m Kariuki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
