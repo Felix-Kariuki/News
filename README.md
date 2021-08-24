@@ -1,5 +1,5 @@
 # News
-A news app using mmvm architecture, retrofit, coroutines
+A news app using mvvm architecture, retrofit, coroutines and room database
 
 
 ## Data Source
