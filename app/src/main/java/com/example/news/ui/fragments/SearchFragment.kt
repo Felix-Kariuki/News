@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.news.R
 import com.example.news.adapters.NewsAdapter
-import com.example.news.ui.MainActivity
+import com.example.news.ui.activities.MainActivity
 import com.example.news.ui.NewsViewModel
 import com.example.news.util.Constants
 import com.example.news.util.Constants.Companion.SEARCH_NEWS_DELAY

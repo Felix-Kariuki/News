@@ -5,13 +5,12 @@ import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.View
 import android.widget.AbsListView
-import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.news.R
 import com.example.news.adapters.NewsAdapter
-import com.example.news.ui.MainActivity
+import com.example.news.ui.activities.MainActivity
 import com.example.news.ui.NewsViewModel
 import com.example.news.util.Constants.Companion.QUERY_PAGE_SIZE
 import com.example.news.util.Resource

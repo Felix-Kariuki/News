@@ -7,7 +7,7 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.navigation.fragment.navArgs
 import com.example.news.R
-import com.example.news.ui.MainActivity
+import com.example.news.ui.activities.MainActivity
 import com.example.news.ui.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_article.*

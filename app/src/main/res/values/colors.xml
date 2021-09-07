@@ -11,4 +11,5 @@
     <color name="mintGreen">#3EB489</color>
     <color name="scarletRed">#FF2400</color>
     <color name="royalBlue">#246EE9</color>
+    <color name="colorBg">#F0F0F0</color>
 </resources>

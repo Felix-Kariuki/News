@@ -1,4 +1,4 @@
-package com.example.news.ui
+package com.example.news.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,6 +13,8 @@ import android.widget.Toast
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatDelegate
+import com.example.news.ui.NewsViewModel
+import com.example.news.ui.NewsViewModelProviderFactory
 
 
 class MainActivity : AppCompatActivity() {
