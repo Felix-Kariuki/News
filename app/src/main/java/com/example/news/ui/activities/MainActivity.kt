@@ -50,8 +50,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.darkMode -> AppCompatDelegate.MODE_NIGHT_YES
-            R.id.lightMode -> AppCompatDelegate.MODE_NIGHT_NO
+            R.id.darkMode -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES
+            )
+            R.id.lightMode -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             R.id.share -> Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show()
             else -> {
             }
