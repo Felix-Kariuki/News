@@ -18,6 +18,10 @@ import com.example.news.ui.NewsViewModel
 import com.example.news.util.Constants
 import com.example.news.util.Constants.Companion.SEARCH_NEWS_DELAY
 import com.example.news.util.Resource
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
 import kotlinx.android.synthetic.main.fragment_search.*
 import kotlinx.android.synthetic.main.fragment_search.paginationProgressBar
@@ -37,6 +41,23 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = (activity as MainActivity).viewModel
         setUpRecyclerView()
+
+        //initialize ad
+        MobileAds.initialize(context) {}
+        //load ad banner
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
+
+        adView.adListener = object: AdListener() {
+            override fun onAdFailedToLoad(adError : LoadAdError) {
+                // Code to be executed when an ad request fails.
+                Toast.makeText(context,"Ad Failed",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+
+        }
+
 
         newsAdapter.setOnItemClickListener {
             val bundle = Bundle().apply {
