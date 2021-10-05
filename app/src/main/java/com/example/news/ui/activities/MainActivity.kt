@@ -12,6 +12,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.Toast
 import android.view.Menu
 import android.view.MenuItem
+import android.view.ViewGroup
+import android.widget.Button
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.news.ui.NewsViewModel
 import com.example.news.ui.NewsViewModelProviderFactory
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         val newsRepository = NewsRepository(ArticleDatabase(this))
         val viewModelProviderFactory = NewsViewModelProviderFactory(application,newsRepository)

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "955648477276",
+    "firebase_url": "https://flexduka-491d5-default-rtdb.firebaseio.com",
+    "project_id": "flexduka-491d5",
+    "storage_bucket": "flexduka-491d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955648477276:android:2d59799cf2c305c507be99",
+        "android_client_info": {
+          "package_name": "com.example.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPSC7ZU0nsAIg9hZIv-6VUmp9mKwCKu1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955648477276:android:a466bfc81e73e63407be99",
+        "android_client_info": {
+          "package_name": "com.flexcode.flexduka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPSC7ZU0nsAIg9hZIv-6VUmp9mKwCKu1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955648477276:android:6f83c69cba8b281507be99",
+        "android_client_info": {
+          "package_name": "com.flexcode.flexstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPSC7ZU0nsAIg9hZIv-6VUmp9mKwCKu1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955648477276-savda3s5e4hmkr8eh7gfkbs8p4vubqu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
